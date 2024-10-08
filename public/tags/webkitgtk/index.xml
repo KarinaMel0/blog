@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><?xml-stylesheet href="/feed_style.xsl" type="text/xsl"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="https://www.rssboard.org/media-rss">
+  <channel>
+    <title>Webkitgtk on Karina Mel</title>
+    <link>http://localhost:1313/tags/webkitgtk/</link>
+    <description>Recent content in Webkitgtk on Karina Mel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Oct 2024 14:48:10 -0300</lastBuildDate><atom:link href="http://localhost:1313/tags/webkitgtk/index.xml" rel="self" type="application/rss+xml" /><icon>http://localhost:1313/logo.png</icon>
+    
+    
+    <item>
+      <title>Ehhht</title>
+      <link>http://localhost:1313/post/ehhht/</link>
+      <pubDate>Mon, 07 Oct 2024 14:48:10 -0300</pubDate>
+      
+      <guid>http://localhost:1313/post/ehhht/</guid>
+      <description><![CDATA[<h2 id="hii-everyord">hii everyord</h2>
+<p><img src="teste.jpg" alt="teste"></p>
+]]></description>
+      
+        <media:thumbnail url="http://localhost:1313/content/post/teste.jpg" />
+      
+    </item>
+    
+    
+  </channel>
+</rss>

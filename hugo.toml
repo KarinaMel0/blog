@@ -1,0 +1,63 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Karina Mel'
+theme = 'hugo-ficurinia'
+paginate = 5
+summaryLength = 30
+
+[params]
+    author = "Karina Mel"
+    description = "teste "
+    paperCards = false  
+    showPostsLink = false 
+    extraContentDirs = [] 
+    showcaseDir = "showcase" 
+    
+    enableRelatedArticles = true
+    relatedArticlesNum = 2
+    forceRedirect = true
+
+    logo = "/logo.png"
+    favicon = "/"  # 32x32
+    faviconIco = "/"  # 32x32
+    appletouch = "/apple-touch-icon.png"  # 180x180
+    svgicon = "/logo.png"
+    icon512 = "/logo.png"  # 512x512 png image
+    gridView = false
+    logoRightOfTitle = true  # positions the logo to the right of the title; default: false
+
+    showTags = true  
+    showRss = false  
+    imageInArticlePreview = true
+    buttonTags = true
+    tagsInArticlePreview = true
+    mobileHamburgerNav = false
+[menu]
+    [[menu.main]]
+        identifier = "about"
+        name = "about"
+        url = "/about"
+        weight = 99
+    # these links (menu.icons) will be added as icon links below the main nav
+    [[menu.icons]]
+        identifier = "github"
+        name = "github"
+        url = "https://www.linkedin.com/in/karina0/"
+        weight = 10
+    [[menu.icons]]
+        identifier = "linkedin"
+        name = "linkedin"
+        url = "https://www.linkedin.com/in/karina0/"
+        weight = 20
+[markup]
+    [markup.highlight]
+        codeFences = true
+        guessSyntax = true
+        lineNos = false
+        lineNumbersInTable = false
+        tabWidth = 4
+        style = "dracula"
+    [markup.tableOfContents]
+        endLevel = 5
+        ordered = false
+        startLevel = 1
